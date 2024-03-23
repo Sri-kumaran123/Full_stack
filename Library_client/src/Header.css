@@ -1,0 +1,12 @@
+
+nav{
+    background-color: #3f37c9;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+nav h1{
+    font-size: 2.5rem;
+    padding: 0 4rem;
+}

@@ -1,0 +1,51 @@
+.form{
+   height: 80%;
+   width:  78%;
+   box-sizing: border-box;
+    color: black;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cord{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 24px;
+    height: 50%;
+    width: 35%;
+}
+.cord label,.cord input{
+    margin: 10px 0;
+}
+.cord input{
+    height: 60px;
+    width:400px;
+    font-size:28px;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 149, 255);
+    outline: none;
+    padding: 0px 10px;
+    
+}
+.cord input:active{
+    outline:1px solid blue;
+}
+.cord > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:10px ;
+}
+.cord > p{
+    cursor: pointer;
+}
+
+.cord > p:hover{
+    color: blue;
+}

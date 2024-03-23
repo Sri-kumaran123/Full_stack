@@ -1,0 +1,17 @@
+
+.r-side2{
+    padding: 30px;
+    height: 100%;
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-image:  url("./i.jpg");
+}
+
+.box2{
+    border: 1px solid blue;
+    padding: 30px;
+    margin: 20px;
+    color: black;
+    border-radius: 10px;
+}

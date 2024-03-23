@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  height: 100vh;
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.btn{
+
+  background-color: #3f37c9;
+  padding:10px 25px;
+  font-size: 28px;
+  border-radius: 12px;
+  font-weight: 500;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+.btn:hover{
+  background-color: #271fc4;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
